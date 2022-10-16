@@ -1,0 +1,34 @@
+h3 {
+    font-size: 25px !important;
+}
+
+#takeSnapshotBtn{
+    background-color: rgb(188, 50, 216);
+}
+
+#takeSnapshotBtn:hover {
+    background-color: rgb(250, 108, 255);
+}
+
+canvas {
+    border: 5px solid rgb(255, 255, 255);
+}
+
+body{
+    background-color: black;
+}
+
+@keyframes example{
+    from{
+        box-shadow: 1px 1px 38px rgb(96, 228, 79);
+    }
+    to{
+        box-shadow: 1px 1px 38px rgb(87, 213, 252);
+    }
+}
+
+canvas {
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
